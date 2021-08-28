@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+    background-color: rgb(223, 222, 222);
+}
+
+#ingredientes{
+    float: left;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#preparo{
+    float: right;
+    width: 600px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.imagem{
+    text-align: center;
+}
+
+img{
+    width: 800px;
+    height: 500px;
+    border-color: rgb(252, 201, 107);
+    border-style: solid;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 3px;
+    box-shadow: 6px 3px 3px gray;
+}
+
+h4{
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Hina Mincho', serif;
+}
+
+h1{
+    color: orange;
+    font-family: 'Hina Mincho', serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li{
+    font-family: 'Lora', serif;;
+    font-size: 15px;
+    margin: 2px;
+    padding: 2px;
+    color: darkgreen;
+}
+
+.xicara{
+    text-decoration: line-through;
+}
+
+.itens{
+    font-weight: 600;
+}
+
+.copyright{
+    margin-top: 90px;
+    margin-left: 10px;
+    bottom: auto;
+    position: fixed;
+}
